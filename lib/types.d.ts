@@ -9,6 +9,7 @@ interface Device {
   isTablet: boolean
   isWindows: boolean
   isMacOS: boolean
+  isIE: boolean
 }
 
 declare module '@nuxt/vue-app' {
@@ -21,6 +22,7 @@ declare module '@nuxt/vue-app' {
     isTablet: boolean
     isWindows: boolean
     isMacOS: boolean
+    isIE: boolean
   }
 }
 
